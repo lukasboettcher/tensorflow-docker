@@ -5,4 +5,4 @@ A simple Docker Image that can handle GPU acceleration with NVIDIA CUDA.
 
 To use, run
 
-    docker run --gpus all -it --rm -v `PWD`:/workdir ghcr.io/lukasboettcher/tensorflow-docker:main
+    docker run --gpus all -it --rm -v `pwd`:/workdir ghcr.io/lukasboettcher/tensorflow-docker:main
